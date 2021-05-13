@@ -1,0 +1,7 @@
+bokeh @ file:///C:/ci/bokeh_1614700829999/work
+matplotlib @ file:///C:/ci/matplotlib-base_1592846084747/work
+numpy @ file:///C:/ci/numpy_and_numpy_base_1596233945180/work
+numpydoc @ file:///tmp/build/80754af9/numpydoc_1605117425582/work
+pandas @ file:///C:/ci/pandas_1598371525254/work
+scipy @ file:///C:/ci/scipy_1597686737426/work
+urllib3 @ file:///tmp/build/80754af9/urllib3_1611694770489/work
