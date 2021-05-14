@@ -180,15 +180,11 @@ def histogram_taxi(dfs_19, dfs_20, available_years, available_months):
 
 	return layout
 
-def histogram_tripDistance_bokeh(MONTH_TO_NUMBER):
-    # Read data into dataframes
-    dfs_19, dfs_20, available_years = get_data(list(MONTH_TO_NUMBER.values()))                                             
+# Read data into dataframes
+dfs_19, dfs_20, available_years = get_data(list(MONTH_TO_NUMBER.values()))                                             
 
-    # Create histogram
-    layout = histogram_taxi(dfs_19, dfs_20, available_years, list(MONTH_TO_NUMBER.keys()))
+# Create histogram
+layout = histogram_taxi(dfs_19, dfs_20, available_years, list(MONTH_TO_NUMBER.keys()))
 
-    # Put the layout in the current document for display
-    curdoc().add_root(layout)
-
-if __name__ == "__main__":
-    histogram_tripDistance_bokeh(MONTH_TO_NUMBER)
+# Put the layout in the current document for display
+curdoc().add_root(layout)
